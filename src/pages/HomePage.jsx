@@ -5,6 +5,7 @@ import speedIcon from '../assets/speedometer.png';
 import ProductSection from '../components/ProductSection';
 import placeholderImg from '../assets/placeholder.png';
 import bannerPlaceholder from '../assets/banner-placeholder.jpg';
+import Footer from '../components/Footer';
 
 function HomePage() {
 
@@ -140,6 +141,7 @@ function HomePage() {
             </div>
         </div>
 
+        <Footer/>
         </div>
         </>
     )
