@@ -133,7 +133,7 @@ function HomePage() {
         </div>
 
         <div className='w-[1130px] mt-20 mb-20'>
-            <h1>OTHER SERVICES</h1>
+            <h1 className='pb-5'>OTHER SERVICES</h1>
             <div className='flex flex-row justify-between'>
                 <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>CTS TRUCKING</div>
                 <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>INVENTORY MANAGEMENT</div>
