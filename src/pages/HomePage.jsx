@@ -64,6 +64,7 @@ function HomePage() {
     return (
         <>
         <div className='flex flex-col items-center'>
+            <div className='w-full h-[95px]'></div>
         <div className="flex flex-col h-[450px] items-center justify-center">
             <div className='pb-20 flex flex-col items-center'>
                 <h1 className="pb-7 text-5xl text-center w-[650px]">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</h1>

@@ -8,7 +8,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return(
-        <>
+        <div className='fixed top-0 left-0 w-full shadow z-50'>
         <div className='bg-gray-300 pr-2 flex flex-row items-center justify-between h-[50px]'>
             
             <div className='flex flex-row'>
@@ -69,7 +69,7 @@ function Navbar() {
             </div>
         </div>
 
-        </>
+        </div>
     )
 }
 
