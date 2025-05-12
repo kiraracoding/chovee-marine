@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import navLogo from '../assets/nav-logo.png';
 import hamMenu from '../assets/ham-menu.png';
 import closeIcon from '../assets/close-btn.png';
@@ -127,7 +128,9 @@ function Navbar() {
                 <p className='text-s'>WASTE MANAGEMENT</p>
             </div>
             <div className='pl-5 flex flex-row w-[250px] justify-around'>
-                <button className='p-1 border-1 rounded-lg bg-gray-500'>LOG-IN/SIGN-UP</button>
+                <Link to="/login">
+                    <button className='p-1 border-1 rounded-lg bg-gray-500'>LOG-IN/SIGN-UP</button>
+                </Link>
                 <button>EN</button>
                 <button>$$</button>
             </div>
