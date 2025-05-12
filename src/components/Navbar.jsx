@@ -3,9 +3,11 @@ import navLogo from '../assets/nav-logo.png';
 import hamMenu from '../assets/ham-menu.png';
 import closeIcon from '../assets/close-btn.png';
 import searchIcon from '../assets/search.png';
+import profilepicPlaceholder from '../assets/profilepic-placeholder.png';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
     return(
         <div className='fixed top-0 left-0 w-full shadow z-50'>
@@ -54,9 +56,71 @@ function Navbar() {
         </div>
 
         <div className='bg-gray-400 h-[45px] pr-2 pl-2 flex flex-row justify-between items-center'>
-            <div className='flex flex-row items-center'>
-                <p>SHOW ALL CATEGORIES &gt;&gt;</p>
+            <div className='flex flex-row items-center hover:underline'>
+                <button onClick={() => setIsActive(!isActive)}>SHOW ALL &gt;&gt;</button>
             </div>
+
+            {isActive && (
+                <div className='absolute pl-10 pt-10 top-[95px] left-0 w-[400px] h-[850px] justify-around bg-gray-600 flex flex-col z-10 shadow-md'>
+                    
+                    <div className='flex flex-row w-full pb-5'>
+                        <img className='h-[70px] w-[70px]' src={profilepicPlaceholder}/>
+                        <div className='pl-5 flex flex-col justify-between'>
+                            <h1 className='text-xl'>HELLO, GUEST</h1>
+                            <button className='border-1 rounded-md p-1 text-md bg-white'>LOG-IN OR SIGN-UP</button>
+                        </div>
+                    </div>
+
+                    <div className='pb-3'>
+                        <h1 className='pb-1 text-md'>MY ACCOUNT</h1>
+                        <p className='text-xs'>MY SHOPPING CART</p>
+                        <p className='text-xs'>MY ORDERS</p>
+                        <p className='text-xs'>ORDER HISTORY</p>
+                        <p className='text-xs'>ACCOUNT INFORMATION</p>
+                        <p className='text-xs'>CONTACT INFORMATION</p>
+                        <p className='text-xs'>PAYMENT METHOD</p>
+                    </div>
+
+                    <div className='pb-3'>
+                        <h1 className='pb-1 text-md'>PRODUCT CATEGORIES</h1>
+                        <p className='text-xs'>BEVERAGES</p>
+                        <p className='text-xs'>DAIRY & POULTRY</p>
+                        <p className='text-xs'>DRY STORE</p>
+                        <p className='text-xs'>LIQUID STORE</p>
+                        <p className='text-xs'>SWEET & SNACKS</p>
+                        <p className='text-xs'>FRESH MEAT</p>
+                        <p className='text-xs'>FRESH FRUITS</p>
+                        <p className='text-xs'>FRESH VEGETABLES</p>
+                        <p className='text-xs'>FROZEN GOODS</p>
+                        <p className='text-xs'>CABIN STORE</p>
+                        <p className='text-xs'>BONDED STORE</p>
+                        <p className='text-xs'>MEDICAL SUPPLIES</p>
+                        <p className='text-xs'>EMERGENCY EQUIPMENTS</p>
+                    </div>
+
+                    <div className='pb-3'>
+                        <h1 className='pb-1 text-md'>OTHER SERVICES</h1>
+                        <p className='text-xs'>TRUCKING SERVICES</p>
+                        <p className='text-xs'>PROCUREMENT SERVICES</p>
+                        <p className='text-xs'>WASTE MANAGEMENT</p>
+                    </div>
+
+                    <div className='pb-3'>
+                        <h1 className='pb-1 text-md'>SETTINGS</h1>
+                        <p className='text-xs'>NOTIFICATIONS</p>
+                        <p className='text-xs'>LANGUAGE</p>
+                        <p className='text-xs'>CURRENCY</p>
+                        <p className='text-xs'>ACCESSIBILITIES</p>
+                    </div>
+
+                    <h1 className='pb-3 text-md'>PRIVACY AND POLICY</h1>
+                    <h1 className='pb-3 text-md'>TERMS AND CONDITIONS</h1>
+                    <h1 className='pb-3 text-md'>FAQs</h1>
+                    <h1 className='pb-3 text-md'>CONTACT US</h1>
+
+                </div>
+            )}
+
             <div className='hidden lg:flex flex-row pl-5 w-[550px] justify-between'>
                 <p className='text-s'>TRUCKING SERVICES</p>
                 <p className='text-s'>PROCUREMENT SERVICES</p>
