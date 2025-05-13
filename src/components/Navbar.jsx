@@ -68,7 +68,9 @@ function Navbar() {
                         <img className='h-[70px] w-[70px]' src={profilepicPlaceholder}/>
                         <div className='pl-5 flex flex-col justify-between'>
                             <h1 className='text-xl'>HELLO, GUEST</h1>
-                            <button className='border-1 rounded-md p-1 text-md bg-white'>LOG-IN OR SIGN-UP</button>
+                            <Link to='/login'>
+                                <button className='border-1 rounded-md p-1 text-md bg-white hover:bg-gray-400'>LOG-IN OR SIGN-UP</button>                           
+                            </Link>
                         </div>
                     </div>
 
