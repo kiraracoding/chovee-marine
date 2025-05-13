@@ -96,22 +96,22 @@ function HomePage() {
         <div className='pb-5 h-[400px] flex flex-col justify-around w-[1130px]'>
             <h1>SHOP BY CATEGORY</h1>
             <div className='flex flew-row justify-between w-[1130px]'>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>BEVERAGES</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>DAIRY & POULTRY</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>DRY STORE</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>LIQUID STORE</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>SWEET & SNACKS</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>FRESH MEAT</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>BEVERAGES</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>DAIRY & POULTRY</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>DRY STORE</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>LIQUID STORE</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>SWEET & SNACKS</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>FRESH MEAT</div>
             </div>
             <div className='flex flew-row justify-between w-[1130px]'>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>FRESH FRUITS & VEGETABLES</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>FROZEN GOOD</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>CABIN STORE</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>BONDED STORE</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>MEDICAL EQUIPMENTS</div>
-                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center'>EMERGENCY EQUIPMENTS</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>FRESH FRUITS & VEGETABLES</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>FROZEN GOOD</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>CABIN STORE</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>BONDED STORE</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>MEDICAL EQUIPMENTS</div>
+                <div className='w-[164px] h-[132px] border-1 flex justify-center items-center text-center hover:bg-gray-300'>EMERGENCY EQUIPMENTS</div>
             </div>
-            <p className='self-end'>BROWSE ALL CATEGORIES &gt;&gt;</p>
+            <p className='self-end hover:underline'>BROWSE ALL CATEGORIES &gt;&gt;</p>
         </div >
 
         <div className='w-[1130px]'>
@@ -135,10 +135,10 @@ function HomePage() {
         <div className='w-[1130px] mt-20 mb-20'>
             <h1 className='pb-5'>OTHER SERVICES</h1>
             <div className='flex flex-row justify-between'>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>CTS TRUCKING</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>INVENTORY MANAGEMENT</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>PROCUREMENT SERVICES</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center'>WASTE MANAGEMENT</div>
+                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>CTS TRUCKING</div>
+                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>INVENTORY MANAGEMENT</div>
+                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>PROCUREMENT SERVICES</div>
+                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>WASTE MANAGEMENT</div>
             </div>
         </div>
 

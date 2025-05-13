@@ -30,10 +30,10 @@ function Navbar() {
             </div>
             
             <div className='hidden md:flex flex-row w-[400px] justify-between items-center pl-2'>
-                <p>HOME</p>
-                <p>PRODUCTS</p>
-                <p>SHOPPING CART</p>
-                <p>SETTINGS</p>
+                <p className='hover:underline'>HOME</p>
+                <p className='hover:underline'>PRODUCTS</p>
+                <p className='hover:underline'>SHOPPING CART</p>
+                <p className='hover:underline'>SETTINGS</p>
             </div>
 
             <div className='md:hidden flex'>
@@ -48,10 +48,10 @@ function Navbar() {
 
             {isOpen && (
                 <div className='absolute top-[50px] right-0 w-full bg-gray-100 flex flex-col items-center py-2 md:hidden z-10 shadow-md'>
-                    <p className="py-1">HOME</p>
-                    <p className="py-1">PRODUCTS</p>
-                    <p className="py-1">SHOPPING CART</p>
-                    <p className="py-1">SETTINGS</p>
+                    <p className="py-1 hover:underline">HOME</p>
+                    <p className="py-1 hover:underline">PRODUCTS</p>
+                    <p className="py-1 hover:underline">SHOPPING CART</p>
+                    <p className="py-1 hover:underline">SETTINGS</p>
                 </div>
             )}
         </div>
@@ -125,13 +125,13 @@ function Navbar() {
             )}
 
             <div className='hidden lg:flex flex-row pl-5 w-[550px] justify-between'>
-                <p className='text-s'>TRUCKING SERVICES</p>
-                <p className='text-s'>PROCUREMENT SERVICES</p>
-                <p className='text-s'>WASTE MANAGEMENT</p>
+                <p className='text-s hover:underline'>TRUCKING SERVICES</p>
+                <p className='text-s hover:underline'>PROCUREMENT SERVICES</p>
+                <p className='text-s hover:underline'>WASTE MANAGEMENT</p>
             </div>
             <div className='pl-5 flex flex-row w-[250px] justify-around'>
                 <Link to="/login">
-                    <button className='p-1 border-1 rounded-lg bg-gray-500'>LOG-IN/SIGN-UP</button>
+                    <button className='p-1 border-1 rounded-lg bg-gray-500 hover:bg-gray-600'>LOG-IN/SIGN-UP</button>
                 </Link>
                 <button>EN</button>
                 <button>$$</button>

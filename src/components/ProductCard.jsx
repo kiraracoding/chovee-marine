@@ -20,7 +20,7 @@ function ProductCard({ name, price, oldPrice, quantity, image, description }) {
                     <button className="border-1 w-[25px] h-[41px]">+</button>
                     <button className="border-1 w-[25px] h-[41px]">-</button>
                 </div>
-                <button className="bg-gray-600 text-xs h-[42px] w-[99px]">
+                <button className="bg-gray-400 text-xs h-[42px] w-[99px] hover:bg-gray-600">
                     ADD TO CART
                 </button>
                 </div>

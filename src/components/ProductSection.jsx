@@ -13,7 +13,7 @@ function ProductSection({ title, products }) {
                 ))}
             </div>
             <div className="text-right mt-2 pt-5">
-                <button className="text-sm underline">SEE ALL &gt;&gt;</button>
+                <button className="text-sm hover:underline">SEE ALL &gt;&gt;</button>
             </div>
         </section>
         </>
