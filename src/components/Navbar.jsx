@@ -15,7 +15,9 @@ function Navbar() {
         <div className='bg-gray-300 pr-2 flex flex-row items-center justify-between h-[50px]'>
             
             <div className='flex flex-row'>
-                <img className='h-[50px] w-[135px]' src={navLogo} alt="company logo"/>
+                <Link to='/'>
+                    <img className='h-[50px] w-[135px]' src={navLogo} alt="company logo"/>
+                </Link>
             </div>
 
             <div className='flex flex-row items-center border-2 rounded-lg overflow-hidden h-10 w-[60%] md:w-[35%]'>
@@ -30,10 +32,21 @@ function Navbar() {
             </div>
             
             <div className='hidden md:flex flex-row w-[400px] justify-between items-center pl-2'>
-                <p className='hover:underline'>HOME</p>
-                <p className='hover:underline'>PRODUCTS</p>
-                <p className='hover:underline'>SHOPPING CART</p>
-                <p className='hover:underline'>SETTINGS</p>
+                <Link to='/'>
+                    <p className='hover:underline'>HOME</p>
+                </Link>
+
+                <Link to='/product-page'>
+                    <p className='hover:underline'>PRODUCTS</p>                
+                </Link>
+
+                <Link to='/shopping-cart'>
+                    <p className='hover:underline'>SHOPPING CART</p>
+                </Link>
+
+                <Link to='/settings'>
+                    <p className='hover:underline'>SETTINGS</p>
+                </Link>
             </div>
 
             <div className='md:hidden flex'>
