@@ -1,4 +1,4 @@
-import CartSection from '../components/CartSection.jsx';
+import SideSection from '../components/SideSection.jsx';
 import placeholderImg from '../assets/placeholder.png';
 import ProductInfinite from '../components/ProductInfinite.jsx';
 
@@ -113,7 +113,7 @@ return (
                 <button className='border-1 mt-2 px-5 py-2 hover:bg-gray-400'>GO TO CART</button>
             </div>
             <div>
-                <CartSection items={shoppingCartItems}/>
+                <SideSection items={shoppingCartItems}/>
             </div>
         </div>
 

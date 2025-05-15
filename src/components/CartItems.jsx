@@ -1,28 +1,35 @@
 
 
-function CartItems({name, price, image}) {
+function CartItems({ image, name, price, quantity, description }) {
 
 
-    return (
-        <>
-        <div className="pt-5 pb-5">
-            <img className="h-[140px] w-[179px]" src={image}/>
-        <h1 className="pl-1 pt-1 text-md font-bold uppercase">{name}</h1>
-        <p>1 X {price} = $0.00</p>
-
-        <div className="pt-1 flex flex-row justify-between">
-            <div className="border-1 flex flex-row h-[42px] w-[99px]">
-                <p className="h-[35px] w-[47px] text-center pt-2">1</p>
-                <button className="border-1 w-[25px] h-[41px]">+</button>
-                <button className="border-1 w-[25px] h-[41px]">-</button>
-            </div>
-            <button className="bg-gray-400 text-xs h-[42px] w-[80px] hover:bg-gray-600">
-                REMOVE
-            </button>
+return (
+    <>
+    <div className="flex flex-row mb-10 bg-gray-200 items-center">
+        <img className="h-[170px] w-[200px]" src={image}/>
+        <div className="pl-10 w-[400px]">
+            <h1 className="text-xl pb-2 text-md font-bold uppercase">{name}</h1>
+            <h2 className="text-lg pb-5">${price}/{quantity} PCS</h2>
+            <p className="text-sm w-[300px]">{description}</p>
         </div>
-        </div>  
-        </>
-    );
+
+        <div className="flex flex-col">
+            <div className="bg-white border-1 w-[140px] h-[45px] flex flex-row justify-between items-center">
+                <p className="w-[75px] text-center">1</p>
+                <div>
+                    <button className="bg-gray-400 hover:bg-gray-500 h-[44px] w-[30px] border-1">+</button>
+                    <button className="bg-gray-400 hover:bg-gray-500 h-[44px] w-[30px] border-1">-</button>
+                </div>
+            </div>
+
+            <div className="bg-gray-400 hover:bg-gray-500 mt-5 border-1 h-[45px] flex items-center justify-center">REMOVE</div>
+        </div>
+
+        <p className="font-bold w-[130px] text-center">$0.00</p>
+
+    </div>
+    </>
+);
 }
 
 export default CartItems
