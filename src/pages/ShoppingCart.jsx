@@ -33,7 +33,7 @@ return (
                 </div>
                 <div className='flex flex-col items-end h-[100px] justify-around'>
                     <h1 className='pb-4 font-bold text-2xl'>SUBTOTAL: $0.00</h1>
-                    <button className='p-2 mb-4 w-[250px] border-1'>PROCEED TO CHECKOUT</button>
+                    <button className='bg-gray-200 hover:bg-gray-400 p-2 mb-4 w-[250px] border-1'>PROCEED TO CHECKOUT</button>
                 </div>
             </div>
 

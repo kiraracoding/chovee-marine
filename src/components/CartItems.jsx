@@ -25,7 +25,7 @@ return (
             <div className="bg-gray-400 hover:bg-gray-500 mt-5 border-1 h-[45px] flex items-center justify-center">REMOVE</div>
         </div>
 
-        <p className="font-bold w-[130px] text-center">$0.00</p>
+        <p className="font-bold w-[130px] text-center text-xl">$0.00</p>
 
     </div>
     </>
