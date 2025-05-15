@@ -20,33 +20,8 @@ function ShoppingCart() {
 
 return (
     <>
-    <div className="h-[95px] w-full"></div>
-
-    <div className="w-full flex flex-row justify-center">
-        
-        <div className="w-[870px]">
-            <h1 className="pt-15 pb-10 text-3xl font-bold">YOUR SHOPPING CART</h1>
-            <div className="flex flex-row justify-between">
-                <div className="flex flex-col h-[100px] justify-around">
-                    <button className="py-1 bg-gray-400 border-1 w-[130px] hover:bg-gray-600">LIST VIEW ↓</button>
-                    <button className="py-1 bg-gray-400 border-1 w-[130px] hover:bg-gray-600">ALL ↓</button>
-                </div>
-                <div className='flex flex-col items-end h-[100px] justify-around'>
-                    <h1 className='pb-4 font-bold text-2xl'>SUBTOTAL: $0.00</h1>
-                    <button className='bg-gray-200 hover:bg-gray-400 p-2 mb-4 w-[250px] border-1'>PROCEED TO CHECKOUT</button>
-                </div>
-            </div>
-
-            <div>
-                <CartSection items={mainShoppingCartItems}/>
-            </div>
-
-        </div>
-
-        <div className="w-[260px]">
-            <h1>SUBTOTAL:</h1>
-        </div>
-
+    <div className="h-full w-full flex flex-col justify-center items-center">
+        <h1>THIS IS THE SHOPPING CART</h1>
     </div>
 
     <Footer />
