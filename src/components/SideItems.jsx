@@ -1,6 +1,6 @@
 
 
-function SideItems({name, price, image}) {
+function SideItems({name, price, image, btntxt }) {
 
 
     return (
@@ -17,7 +17,7 @@ function SideItems({name, price, image}) {
                 <button className="border-1 w-[25px] h-[41px]">-</button>
             </div>
             <button className="bg-gray-400 text-xs h-[42px] w-[80px] hover:bg-gray-600">
-                REMOVE
+                {btntxt}
             </button>
         </div>
         </div>  

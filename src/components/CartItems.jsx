@@ -5,7 +5,7 @@ function CartItems({ image, name, price, quantity, description }) {
 
 return (
     <>
-    <div className="flex flex-row mb-10 bg-gray-200 items-center">
+    <div className="flex flex-row mb-10 items-center">
         <img className="h-[170px] w-[200px]" src={image}/>
         <div className="pl-10 w-[400px]">
             <h1 className="text-xl pb-2 text-md font-bold uppercase">{name}</h1>

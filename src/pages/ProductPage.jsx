@@ -5,16 +5,16 @@ import ProductInfinite from '../components/ProductInfinite.jsx';
 function ProductPage() {
 
     const shoppingCartItems = [
-        {name: "Cart Item 1", price: "3.00", image: placeholderImg},
-        {name: "Cart Item 2", price: "6.00", image: placeholderImg},
-        {name: "Cart Item 3", price: "9.00", image: placeholderImg},
-        {name: "Cart Item 4", price: "12.00", image: placeholderImg},
-        {name: "Cart Item 5", price: "15.00", image: placeholderImg},
-        {name: "Cart Item 6", price: "18.00", image: placeholderImg},
-        {name: "Cart Item 7", price: "21.00", image: placeholderImg},
-        {name: "Cart Item 8", price: "24.00", image: placeholderImg},
-        {name: "Cart Item 9", price: "27.00", image: placeholderImg},
-        {name: "Cart Item 10", price: "30.00", image: placeholderImg},
+        {name: "Cart Item 1", price: "3.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 2", price: "6.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 3", price: "9.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 4", price: "12.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 5", price: "15.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 6", price: "18.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 7", price: "21.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 8", price: "24.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 9", price: "27.00", image: placeholderImg, btntxt: "REMOVE"},
+        {name: "Cart Item 10", price: "30.00", image: placeholderImg, btntxt: "REMOVE"},
     ];
 
     const infiniteItems = [

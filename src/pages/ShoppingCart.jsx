@@ -1,6 +1,7 @@
 import CartSection from "../components/CartSection";
 import placeholderImg from "../assets/placeholder.png"
 import Footer from "../components/Footer.jsx";
+import SideSection from "../components/SideSection.jsx";
 
 function ShoppingCart() {
 
@@ -17,6 +18,19 @@ function ShoppingCart() {
         {name: "Cart Item 10", price: "40.00", image: placeholderImg, quantity: "24", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."},
     ];
 
+    const sideSavedItems = [
+        {name: "Saved Item 1", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 2", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 3", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 4", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 5", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 6", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 7", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 8", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 9", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+        {name: "Saved Item 10", price: "3.00", image: placeholderImg, btntxt: "ADD TO CART"},
+    ];
+
 
 return (
     <>
@@ -31,9 +45,9 @@ return (
                     <button className="py-1 bg-gray-400 border-1 w-[130px] hover:bg-gray-600">LIST VIEW ↓</button>
                     <button className="py-1 bg-gray-400 border-1 w-[130px] hover:bg-gray-600">ALL ↓</button>
                 </div>
-                <div className='flex flex-col items-end h-[100px] justify-around'>
+                <div className='mr-10 flex flex-col items-end h-[100px] justify-around'>
                     <h1 className='pb-4 font-bold text-2xl'>SUBTOTAL: $0.00</h1>
-                    <button className='bg-gray-200 p-2 mb-4 w-[250px] border-1'>PROCEED TO CHECKOUT</button>
+                    <button className='bg-gray-200 p-2 mb-4 w-[250px] border-1 hover:bg-gray-400'>PROCEED TO CHECKOUT</button>
                 </div>
             </div>
 
@@ -43,13 +57,12 @@ return (
 
         </div>
 
-        <div className="w-[260px]">
-            <h1>SUBTOTAL:</h1>
+        <div className="fixed right-0 w-[260px] h-[calc(100vh-95px)] flex flex-col items-center bg-gray-200 overflow-y-auto z-50">
+            <h1 className="pt-10 font-bold text-xl">SAVED ITEMS</h1>
+            <SideSection items={sideSavedItems}/>
         </div>
 
     </div>
-
-    <Footer />
     </>
 );
 }
