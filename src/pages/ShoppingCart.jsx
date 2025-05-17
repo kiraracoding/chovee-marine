@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CartSection from "../components/CartSection";
 import placeholderImg from "../assets/placeholder.png"
 import Footer from "../components/Footer.jsx";
@@ -39,7 +40,7 @@ return (
     <div className="w-full flex flex-row justify-center">
         
         <div className="w-[870px]">
-            <h1 className="pt-15 pb-10 text-3xl font-bold">YOUR SHOPPING CART</h1>
+            <h1 className="pt-15 pb-10 text-3xl font-bold">SHOPPING CART</h1>
             <div className="flex flex-row justify-between">
                 <div className="flex flex-col h-[100px] justify-around">
                     <button className="py-1 bg-gray-400 border-1 w-[130px] hover:bg-gray-600">LIST VIEW ↓</button>
@@ -58,7 +59,10 @@ return (
         </div>
 
         <div className="fixed right-0 w-[260px] h-[calc(100vh-95px)] flex flex-col items-center bg-gray-200 overflow-y-auto z-50">
-            <h1 className="pt-10 font-bold text-xl">SAVED ITEMS</h1>
+            <h1 className="pb-3 pt-10 font-bold text-xl">SAVED ITEMS</h1>
+            <Link to="/saved">
+                <button className="mb-5 border-1 px-3 py-1 text-sm bg-gray-400 hover:bg-white">VIEW ALL</button>
+            </Link>
             <SideSection items={sideSavedItems}/>
         </div>
 
