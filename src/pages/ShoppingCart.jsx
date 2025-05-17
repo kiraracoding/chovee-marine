@@ -48,7 +48,9 @@ return (
                 </div>
                 <div className='mr-10 flex flex-col items-end h-[100px] justify-around'>
                     <h1 className='pb-4 font-bold text-2xl'>SUBTOTAL: $0.00</h1>
-                    <button className='bg-gray-200 p-2 mb-4 w-[250px] border-1 hover:bg-gray-400'>PROCEED TO CHECKOUT</button>
+                    <Link to="/checkout">
+                        <button className='bg-gray-200 p-2 mb-4 w-[250px] border-1 hover:bg-gray-400'>PROCEED TO CHECKOUT</button>
+                    </Link>
                 </div>
             </div>
 
