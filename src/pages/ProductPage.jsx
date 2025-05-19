@@ -106,7 +106,7 @@ return (
 
         <div className='w-[280px]'></div>
 
-        <div className=" fixed right-0 top-[95px] h-[calc(100vh-95px)] border-1 w-[280px] border-black-200 bg-white flex flex-col items-center overflow-y-auto z-50">
+        <div className=" fixed right-0 top-[95px] h-[calc(100vh-95px)] w-[260px] border-black-200 bg-gray-200 flex flex-col items-center overflow-y-auto z-50">
             <div className='w-full flex flex-col justify-center items-center pt-10 pb-5'>
                 <h1 className="text-xl font-bold pb-2">SHOPPING CART</h1>
                 <h2 className="text-md pb-2">SUBTOTAL: $0.00</h2>
