@@ -82,7 +82,7 @@ function Navbar() {
                         <div className='pl-5 flex flex-col justify-between'>
                             <h1 className='text-xl'>HELLO, GUEST</h1>
                             <Link to='/login'>
-                                <button className='border-1 rounded-md p-1 text-md bg-white hover:bg-gray-400'>LOG-IN OR SIGN-UP</button>                           
+                                <button className='border-1 rounded-md p-2 text-xs bg-white hover:bg-gray-400'>LOG-IN OR SIGN-UP</button>                           
                             </Link>
                         </div>
                     </div>
