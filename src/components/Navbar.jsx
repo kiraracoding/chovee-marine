@@ -80,7 +80,7 @@ function Navbar() {
                     <div className='flex flex-row w-full pb-5'>
                         <img className='h-[70px] w-[70px]' src={profilepicPlaceholder}/>
                         <div className='pl-5 flex flex-col justify-between'>
-                            <h1 className='text-xl'>HELLO, GUEST</h1>
+                            <h1 className='text-xl font-bold'>HELLO, GUEST</h1>
                             <Link to='/login'>
                                 <button className='border-1 rounded-md p-2 text-xs bg-white hover:bg-gray-400'>LOG-IN OR SIGN-UP</button>                           
                             </Link>
@@ -88,7 +88,7 @@ function Navbar() {
                     </div>
 
                     <div className='pb-3'>
-                        <h1 className='pb-1 text-md'>MY ACCOUNT</h1>
+                        <h1 className='pb-1 text-md font-bold'>MY ACCOUNT</h1>
                         <p className='text-xs'>MY SHOPPING CART</p>
                         <p className='text-xs'>MY ORDERS</p>
                         <p className='text-xs'>ORDER HISTORY</p>
@@ -98,7 +98,7 @@ function Navbar() {
                     </div>
 
                     <div className='pb-3'>
-                        <h1 className='pb-1 text-md'>PRODUCT CATEGORIES</h1>
+                        <h1 className='pb-1 text-md font-bold'>PRODUCT CATEGORIES</h1>
                         <p className='text-xs'>BEVERAGES</p>
                         <p className='text-xs'>DAIRY & POULTRY</p>
                         <p className='text-xs'>DRY STORE</p>
@@ -115,24 +115,24 @@ function Navbar() {
                     </div>
 
                     <div className='pb-3'>
-                        <h1 className='pb-1 text-md'>OTHER SERVICES</h1>
+                        <h1 className='pb-1 text-md font-bold'>OTHER SERVICES</h1>
                         <p className='text-xs'>TRUCKING SERVICES</p>
                         <p className='text-xs'>PROCUREMENT SERVICES</p>
                         <p className='text-xs'>WASTE MANAGEMENT</p>
                     </div>
 
                     <div className='pb-3'>
-                        <h1 className='pb-1 text-md'>SETTINGS</h1>
+                        <h1 className='pb-1 text-md font-bold'>SETTINGS</h1>
                         <p className='text-xs'>NOTIFICATIONS</p>
                         <p className='text-xs'>LANGUAGE</p>
                         <p className='text-xs'>CURRENCY</p>
                         <p className='text-xs'>ACCESSIBILITIES</p>
                     </div>
 
-                    <h1 className='pb-3 text-md'>PRIVACY AND POLICY</h1>
-                    <h1 className='pb-3 text-md'>TERMS AND CONDITIONS</h1>
-                    <h1 className='pb-3 text-md'>FAQs</h1>
-                    <h1 className='pb-3 text-md'>CONTACT US</h1>
+                    <h1 className='pb-3 text-md font-bold'>PRIVACY AND POLICY</h1>
+                    <h1 className='pb-3 text-md font-bold'>TERMS AND CONDITIONS</h1>
+                    <h1 className='pb-3 text-md font-bold'>FAQs</h1>
+                    <h1 className='pb-3 text-md font-bold'>CONTACT US</h1>
 
                 </div>
             )}
