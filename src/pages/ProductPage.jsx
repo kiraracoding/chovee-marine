@@ -76,19 +76,19 @@ return (
     <div className="flex flex-row justify-between">
 
         <div className="fixed h-[850px] w-[350px] flex flex-col justify-between">
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">BEVERAGES</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">DAIRY AND POULTRY</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">DRY STORE</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">LIQUID STORE</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">SWEET & SNACKS</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH MEAT</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH FRUITS</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH VEGETABLES</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FROZEN GOODS</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">CABIN STORE</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">BONDED STORE</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">MEDICAL EQUIPMENTS</h2>
-            <h2 className="text-l border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">EMERGENCY EQUIPMENTS</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">BEVERAGES</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">DAIRY AND POULTRY</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">DRY STORE</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">LIQUID STORE</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">SWEET & SNACKS</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH MEAT</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH FRUITS</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FRESH VEGETABLES</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">FROZEN GOODS</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">CABIN STORE</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">BONDED STORE</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">MEDICAL EQUIPMENTS</h2>
+            <h2 className="text-l font-bold border-1 h-[66px] flex justify-center items-center hover:bg-gray-200">EMERGENCY EQUIPMENTS</h2>
         </div>
 
         <div className='w-[350px]'></div>
