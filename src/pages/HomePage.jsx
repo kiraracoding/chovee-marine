@@ -135,10 +135,10 @@ function HomePage() {
         <div className='w-[1130px] mt-20 mb-20'>
             <h1 className='pb-5 font-bold text-2xl'>OTHER SERVICES</h1>
             <div className='flex flex-row justify-between'>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>CTS TRUCKING</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>INVENTORY MANAGEMENT</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>PROCUREMENT SERVICES</div>
-                <div className='border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>WASTE MANAGEMENT</div>
+                <div className='font-bold border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>CTS TRUCKING</div>
+                <div className='font-bold border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>INVENTORY MANAGEMENT</div>
+                <div className='font-bold border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>PROCUREMENT SERVICES</div>
+                <div className='font-bold border-1 h-[192px] w-[261px] flex justify-center items-center hover:bg-gray-300'>WASTE MANAGEMENT</div>
             </div>
         </div>
 
