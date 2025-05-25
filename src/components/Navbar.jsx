@@ -33,19 +33,19 @@ function Navbar() {
             
             <div className='hidden md:flex flex-row w-[400px] justify-between items-center pl-2'>
                 <Link to='/'>
-                    <p className='hover:underline'>HOME</p>
+                    <p className='font-bold hover:underline'>HOME</p>
                 </Link>
 
                 <Link to='/product-page'>
-                    <p className='hover:underline'>PRODUCTS</p>                
+                    <p className='font-bold hover:underline'>PRODUCTS</p>                
                 </Link>
 
                 <Link to='/shopping-cart'>
-                    <p className='hover:underline'>SHOPPING CART</p>
+                    <p className='font-bold hover:underline'>SHOPPING CART</p>
                 </Link>
 
                 <Link to='/settings'>
-                    <p className='hover:underline'>SETTINGS</p>
+                    <p className='font-bold hover:underline'>SETTINGS</p>
                 </Link>
             </div>
 
